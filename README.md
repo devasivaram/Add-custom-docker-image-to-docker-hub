@@ -123,7 +123,7 @@ docker image tag devanandts/dockertestimage:custom devanandts/dockertestimage:la
 Now, we can push the image to docker hub
 
 ~~~sh
-docker image push devanandts/dockertestiamge:custom
+docker image push devanandts/dockertestimage:custom
 docker image push devanandts/dockertestimage:latest
 ~~~
 
@@ -138,7 +138,7 @@ Now we can pull this image for creating docker container!
 
 ## Conclusion
 
-This is how an docker cutom image is created and pushed to docker hub. Please contact me when you encounter any difficulty error while using this terrform code. Thank you and have a great day!
+This is how an docker custom image is created and pushed to docker hub. Please contact me when you encounter any difficulty error while using this terrform code. Thank you and have a great day!
 
 
 ### ⚙️ Connect with Me
