@@ -91,29 +91,49 @@ vim Dockerfile
 docker image build -t dockerimage:1 .
 ~~~
 
-> Result
+>Result
 
 ![image](https://user-images.githubusercontent.com/100773863/162553606-604eabbf-adb8-4274-b058-107a25263cb7.png)
 
 
 ## 5. Pushing custom image to Docker
 
-Now, let's add this custom docker iumage to our docker hub, sign up in [docker hub](https://hub.docker.com/) and then follow this:
+Now, let's add this custom docker image to our docker hub, sign up in [docker hub](https://hub.docker.com/) and then follow this:
 
 ~~~sh
 docker login
 ~~~
-> pass your credentials and you will get login succeeded message/result
+>pass your credentials and you will get login succeeded message/result
+
+![image](https://user-images.githubusercontent.com/100773863/162554295-a85ae624-0a7e-441a-8f0d-31a2c19faf95.png)
+
 
 **We will rename the custom image (dockerimage:1) to desired one, here I rename it to:**
 
 ~~~sh
-docker image tag dockerimage:1 devasivaram/dockerimage:custom
-docker image tag devasivaram/dockerimage:custom devasivaram/dockerimage:latest
+docker image tag dockerimage:1 devanandts/dockertestimage:custom
+docker image tag devanandts/dockertestimage:custom devanandts/dockertestimage:latest
 ~~~
 
-> Result
-![image](https://user-images.githubusercontent.com/100773863/162553993-ec61ef20-4d1b-43c1-899e-fb76fe9363e8.png)
+>Result
+
+![image](https://user-images.githubusercontent.com/100773863/162554522-dba95987-9443-4b2b-8a62-22ed06915082.png)
+
+
+Now, we can push the image to docker hub
+
+~~~sh
+docker image push devanandts/dockertestiamge:custom
+docker image push devanandts/dockertestimage:latest
+~~~
+
+>Result
+
+![image](https://user-images.githubusercontent.com/100773863/162554612-963b1175-5b54-4577-abfa-34644ce47b34.png)
+![image](https://user-images.githubusercontent.com/100773863/162554635-716ed820-76d4-47f1-b723-dc572dc4eabe.png)
+
+
+
 
 
 
