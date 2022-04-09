@@ -1,4 +1,4 @@
-# Create-simple-custom-docker-image
+# Create-simple-custom-docker-image-&-push-to-docker-hub
 
 ## Description
 
@@ -128,20 +128,21 @@ docker image push devanandts/dockertestimage:latest
 ~~~
 
 >Result
-
+>
 ![image](https://user-images.githubusercontent.com/100773863/162554612-963b1175-5b54-4577-abfa-34644ce47b34.png)
 ![image](https://user-images.githubusercontent.com/100773863/162554635-716ed820-76d4-47f1-b723-dc572dc4eabe.png)
 
+Now we can pull this image for creating docker container!
 
+> I will show you can example:
 
-
-
+Here I use [play-with-docker](https://labs.play-with-docker.com/) to test the image pull:
 
 
 
 ## Conclusion
 
-This is how an docker container is created with sample HTML teamplate added to docker image. Please contact me when you encounter any difficulty error while using this terrform code. Thank you and have a great day!
+This is how an docker cutom image is created and pushed to docker hub. Please contact me when you encounter any difficulty error while using this terrform code. Thank you and have a great day!
 
 
 ### ⚙️ Connect with Me
