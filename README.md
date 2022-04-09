@@ -134,9 +134,10 @@ docker image push devanandts/dockertestimage:latest
 
 Now we can pull this image for creating docker container!
 
-> I will show you can example:
+> I will show you an example:
 
-Here I use [play-with-docker](https://labs.play-with-docker.com/) to test the image pull:
+Here I use my EC2 instance to test the image pull and container creation:
+
 
 
 
