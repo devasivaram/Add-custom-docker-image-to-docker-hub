@@ -98,7 +98,7 @@ docker image build -t dockerimage:1 .
 
 ## 5. Pushing custom image to Docker
 
-Now, let's add this custom docker image to our docker hub, sign up in [docker hub](https://hub.docker.com/) and then follow this:
+Now, let's add this custom docker image to our docker hub. First we need to sign up in [docker hub](https://hub.docker.com/) and then follow this:
 
 ~~~sh
 docker login
